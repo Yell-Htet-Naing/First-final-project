@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading , .wrapper, .headingDiv{
+    text-align: center;
+}
+.countInclude {
+    font-size: 40px;
+    padding: 20px 0px;
+}
+.heading > button ,.headingDiv > button{
+    padding : 10px 10px;
+    margin-right : 5px;
+    color : white;
+    border : none;
+    background-color : #895BE6;
+    text-transform: uppercase;
+    
+}   
+.graph-buttons > button, .startPage{
+    background-color: #F2A93B;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+.endPage:hover {
+    background-color: #581CB8;
+}
+.linkForFooter {
+    text-decoration: none;
+    color: white;
+}
+.startPage {
+    margin: 30px auto;
+}
+.footer {
+    text-align: center;
+
+}
+.startPage:hover {
+    background-color: #895BE6;
+}
+
